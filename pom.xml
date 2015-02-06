@@ -61,6 +61,9 @@
 							<jobName>${jobname}</jobName>
 							<hostName>${hostname}</hostName>
 							<endpointLoginConfFile>${squash.ta.conf.file}</endpointLoginConfFile>
+							<reportBaseUrl>${ta.tmcallback.reportbaseurl}</reportBaseUrl>
+							<jobExecutionId>${ta.tmcallback.jobexecutionid}</jobExecutionId>
+							<reportName>${ta.tmcallback.reportname}</reportName>
                         </tmCallBack>
 					</configurers>
 				</configuration>
